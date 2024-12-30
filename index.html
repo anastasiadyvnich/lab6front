@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript. Формат JSON. API. Отримання даних із зовнішньої сторінки (fetch, promise)</title>
+    <meta name="description" content="Шоста лабораторна робота з основ фронт-енд технологій">
+    <meta name="keywords" content="JavaScript, Формат JSON, API, fetch, promise">
+    <style>
+        main {
+            width: 600px;
+            margin: auto;
+            background: #5e5e5e;
+        }
+        h1,
+        h2 {
+            text-align: center;
+        }
+        .result {
+            font-size: 35px;
+            line-height: 30px;
+            height: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+        .users {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 15px;
+        }
+        .user-card {
+            background: #5d5d5d;
+        }
+        .user-card p {
+            overflow-wrap: anywhere;
+            display: block;
+            color: #fff;
+            width: 125px;
+        }
+        button {
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            margin: auto;
+            display: block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Лабораторна робота №6</h1>
+        <h2>Завдання 1</h2>
+        <div class="code">
+            <button id="getUser">Download</button>
+            <div id="result" class="result"></div>
+            <div id="users" class="users">
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
